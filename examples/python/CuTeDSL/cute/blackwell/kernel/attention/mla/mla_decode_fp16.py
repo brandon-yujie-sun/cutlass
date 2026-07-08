@@ -3891,7 +3891,6 @@ def run(
         softmax_scale,
         output_scale,
         stream,
-        options="--opt-level 2",
     )
 
     def torch_reference_mla(

@@ -2341,7 +2341,6 @@ def run(
         amax_tensor,
         max_active_clusters,
         current_stream,
-        options=f"--opt-level 2",
     )
 
     # Compute reference result

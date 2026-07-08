@@ -1887,7 +1887,6 @@ def run(
         window_size_left if window_size_left is None else Int32(window_size_left),
         window_size_right if window_size_right is None else Int32(window_size_right),
         current_stream,
-        options=f"--opt-level 2",
     )
 
     def run_torch_fmha(

@@ -2924,7 +2924,6 @@ def run(
         tensor_of_tensormap,
         max_active_clusters,
         current_stream,
-        options=f"--opt-level 2",
     )
 
     # reference check

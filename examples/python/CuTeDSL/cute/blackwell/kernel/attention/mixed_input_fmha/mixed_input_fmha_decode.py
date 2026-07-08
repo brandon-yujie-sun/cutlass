@@ -1790,7 +1790,6 @@ def run(
         scale_qs,
         scale_o,
         current_stream,
-        options="--opt-level 2",
     )
     print("Finished Compiling")
 
